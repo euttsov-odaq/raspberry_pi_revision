@@ -9,11 +9,9 @@ add_executable(table
     raspberry_pi_revision.c
     raspberry_pi_revision.h
 )
-add_library(tablelib
+add_library(rpi_revision
     table.c
     raspberry_pi_revision.c
     raspberry_pi_revision.h
 )
-set_target_properties(tablelib PROPERTIES
-    OUTPUT_NAME table
-)
+
